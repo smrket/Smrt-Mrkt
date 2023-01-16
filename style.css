@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+body{
+	background: #121212;
+	justify-content:center;
+	justify-items:center;
+	align-content:center;
+	align-items:center;
+	text-align:center;
+	color:white;
+  font-family: 'Tajawal', sans-serif;
+}
+
+#logo{
+	
+	width:4rem;
+  padding: 2px;
+}
+.top{
+	
+	background:linear-gradient(to right,#000000,#0000ff);
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	font-family: 'Almarai', sans-serif;
+	color:white;
+}
+
+
+
+nav{
+	background:linear-gradient(to left,#000000,#0000ff);
+}
+nav ul{
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+}
+
+nav ul li a i{
+	margin: .5rem;
+	font-size: 2rem;
+	color:greenyellow;
+	
+}
+
+
+.opens {
+    color: rgb(255, 255, 0);
+    font-style: italic;
+    letter-spacing: 3px;
+    line-height: 2;
+    padding: 1rem 2rem;
+    
+    background:linear-gradient(to right,#000000,#0000ff);
+    
+}
+
+
+
+
+.main-btn {
+	color: #fff;
+	background:linear-gradient(to left,#000000,#0000ff);
+	text-decoration: none;
+	font-size: 1em;
+	font-weight: 600;
+	display: inline-block;
+	padding: 0.9375em 2.1875em;
+  margin: 1% 23%;
+	letter-spacing: 1px;
+	border-radius: 15px;
+	margin-bottom: 10px;
+  margin-top: 1rem;
+	transition: 0.7s ease;
+ 
+}
+
+.main-btn:hover {
+  background:linear-gradient(to right,#000000,#0000FF);
+	transform: scale(1.1);
+}
+
+
+/*contact us*/
+.card .info span{
+  font-size: 1.2rem;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(255, 255, 0);
+  
+
+}
+.card{
+  margin-bottom: 1rem;
+}
+/*contact us*/
+
+
+
+/*START SECTIONS*/
+
+
+
+section {
+    font-family: 'Tajawal', sans-serif;
+    margin-top: 10px;
+    
+    
+
+}
+
+.sectionOne .container{
+    display: grid;
+    grid-auto-rows: minmax(150px,auto);
+  
+    grid-template-areas:
+    "head head head head head"
+    "sl sl nav nav nav"
+    "sl sl cont cont cont"
+    "sl sl cont cont cont"
+    "sl sl cont cont cont"
+    "foot foot foot foot foot"
+    ;
+  
+    grid-gap: 10px;
+  
+  
+  }
+  
+  
+.sectionOne  .box{
+    font-weight: bold;
+    background: black;
+    color:azure;
+    text-align: center;
+    justify-items:center;  
+    align-items: center; 
+    
+  }
+
+  
+.sectionOne .head{
+    
+    grid-area: head;
+    background-image: url("assets/images/crypto.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+  }
+
+
+  .sectionOne .head h3{
+    color: #000000;
+    background-color: #aaa;
+    margin: 1%;
+    border-radius: 8px;
+    
+
+    
+    
+  }
+
+
+
+
+
+.sectionOne .nav{
+    grid-area: nav;
+  }
+.sectionOne .sidelef{
+    grid-area: sl;
+  
+    background-image: url("assets/images/techno.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+
+    
+  }
+  
+  .sectionOne .sidelef .service div{
+    
+    margin: 2.5rem auto;
+    
+   
+    
+    
+  }
+
+
+  .sectionOne .sidelef .service a{
+    
+    color:white;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 8px;
+
+    font-size: 20px;
+    font-weight: bold;
+  
+  }
+  .sectionOne .sidelef .service a:hover{
+    
+    
+    
+    background-color:green;
+  
+  }
+
+
+
+
+.sectionOne .content{
+    grid-area: cont;
+    
+    background-image: url("assets/images/btc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+  }
+
+  .sectionOne .content .free a{
+    display: block;
+    color:black;
+    text-decoration: none;
+    margin: 1rem 3rem;
+
+    background-color: greenyellow;
+    border-radius: 8px;
+   
+    font-size: 30px;
+    font-weight: bold;
+    opacity: 0.9;
+    
+
+  }
+.sectionOne .footer{
+    grid-area: foot;
+    
+
+    background-image: url("assets/images/company.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .sectionOne .footer h1{
+    margin: 1rem;
+    color: white;
+    background-color: #000000;
+    border-radius: 8px;
+  }
+  
+
+  
+
+  
+
+
+
+
+/*END SECTIONS*/
+
+
+
+
+
+
+
+
+
+
+footer{
+	margin: 3rem 0 3rem 0;
+}
+
+footer div h3{
+	font-family: 'Alkalami', serif;
+	letter-spacing: 1px;
+}
