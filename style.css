@@ -205,6 +205,7 @@ section .container .freecoin .free a{
 section .container .freecoin .free span{
 		background-color: wheat;
 		border-radius: 8px;
+		
 }
 
 section .container .freecoin .free span:hover{
@@ -292,8 +293,35 @@ footer div h3{
 
 
 /*media query*/
-@media screen and (min-width: 600px) {
-	body {
-	  
+@media screen and (min-width: 777px) {
+	section 
+	{
+		max-width: 777px;
+		margin: auto;
 	}
+	section .container{
+		margin: 1rem 0;
+	}
+	section .container .crypto{
+		min-height: 400px;
+	}
+	section .container .freecoin{
+		min-height: 400px;
+	}section .container .service{
+		min-height: 400px;
+	}section .container .contact{
+		min-height: 400px;
+	}
+	section .container .crypto h3{
+		font-size: 150%;
+	}
+	section .container .freecoin .free{
+		font-size: 150%;
+	}section .container .service div{
+		font-size: 150%;
+	}section .container .contact .card{
+		font-size: 150%;
+	}
+	
+	
   }
