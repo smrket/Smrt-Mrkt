@@ -61,7 +61,8 @@ nav ul li a i{
     letter-spacing: 4px;
     line-height: 1;
     padding: 1rem;
-    
+    font-size: larger;
+	font-weight: bolder;
     background:linear-gradient(to right,#000000,#0000ff);
     
 }
@@ -116,7 +117,7 @@ nav ul li a i{
     letter-spacing: 5px;
     font-size: 1.5em;
     text-transform: uppercase;
-    animation: typing 8s steps(10) infinite;
+    animation: typing 6s steps(10) infinite;
     overflow: hidden;
 
 }
@@ -129,7 +130,7 @@ nav ul li a i{
     }
     30%,60%
     {
-        width:250px;
+        width:200px;
     }
 }
 
