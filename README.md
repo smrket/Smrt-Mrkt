@@ -1,2 +1,2 @@
 # Smrt-Mrkt
-Opensource App
+Arabic Opensource App
